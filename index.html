@@ -17,7 +17,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Page d'accueil</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3826013511" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=292616607" id="pagesheet"/>
    </head>
  <body>
 
@@ -37,10 +37,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <img class="block" id="u170_img" src="images/plan%20de%20travail%201.png?crc=288410717" alt="" data-heightwidthratio="1.654281098546042" data-image-width="1238" data-image-height="2048"/>
     </div>
     <a class="anchor_item grpelem" id="haut" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
-    <div class="size_fixed grpelem" id="u205" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
-     
-            
-    </div>
     <a class="anchor_item grpelem" id="a" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
     <a class="anchor_item grpelem" id="b" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
     <div class="clip_frame grpelem" id="u251"><!-- image -->
@@ -71,13 +67,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div id="u349"><!-- simple frame --></div>
    </div>
   </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
-</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    // Decide weather to suppress missing file error or not based on preference setting
@@ -104,49 +93,5 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4157109226" type="text/javascript" async data-main="scripts/museconfig.js?crc=4153641093" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-  
-  <!--HTML Widget code-->
-  
-<script type="text/javascript">
-$(window).load(function(){var pos1=1;if(pos1===1){(function(){var delay=false;$(document).on('mousewheel DOMMouseScroll',function(event){event.preventDefault();if(delay)return;delay=true;setTimeout(function(){delay=false},800)
-var wd=event.originalEvent.wheelDelta||-event.originalEvent.detail;var XZ="";var a=$("a:not([href])").not(XZ.replace(/\b(?=\w)/g,'#'));if(wd<0){for(var i=0;i<a.length;i++){var t=a[i].getClientRects()[0].top;if(t>=85)break;}}else{for(var i=a.length-1;i>=0;i--){var t=a[i].getClientRects()[0].top;if(t<-85)break;}}
-var time=700;var easing='easeInOutCirc';$("html, body").animate({scrollTop:$(a[i]).offset().top},time,easing);});})();}});$(window).load(function(){var pos1=1;if(pos1===2){(function(){$(document).on('mousewheel DOMMouseScroll',function(event){var XZ="";var a=$("a:not([href])").not(XZ.replace(/\b(?=\w)/g,'.'));var x=$(a[a.length-1]).offset();var m=(x.top)+10;var fo=$(window).scrollTop();fo=fo+500;var dox=$(a[0]).offset();var dom=(dox.top)+200;var dofo=$(window).scrollTop();if(dofo<dom){if(event.originalEvent.deltaY<0){event.preventDefault();return;}}
-if(fo>m){if(event.originalEvent.deltaY>0){event.preventDefault();return;}}
-$("body").css("opacity","0");var timing=500+550;var fnz=500+450;setTimeout(function(){$("body").css("opacity","1");},timing);var wd=event.originalEvent.wheelDelta||-event.originalEvent.detail;var XZ="";var a=$("a:not([href])").not(XZ.replace(/\b(?=\w)/g,'#'));if(wd<0){for(var i=0;i<a.length;i++){var t=a[i].getClientRects()[0].top;if(t>=70)break;}}else{for(var i=a.length-1;i>=0;i--){var t=a[i].getClientRects()[0].top;if(t<-70)break;}}
-setTimeout(function(){$("html, body").animate({scrollTop:$(a[i]).offset().top},0);},fnz);});})();;}});
-
-jQuery.easing.jswing = jQuery.easing.swing;
-jQuery.extend(jQuery.easing, {
-    def: "easeOutQuad",
-    swing: function(e, f, a, h, g) {
-        return jQuery.easing[jQuery.easing.def](e, f, a, h, g)
-    },
-    easeInQuad: function(e, f, a, h, g) {
-        return h * (f /= g) * f + a
-    },
-    easeOutQuad: function(e, f, a, h, g) {
-        return -h * (f /= g) * (f - 2) + a
-    },
-    easeInOutQuad: function(e, f, a, h, g) {
-        if ((f /= g / 2) < 1) {
-            return h / 2 * f * f + a
-        }
-        return -h / 2 * ((--f) * (f - 2) - 1) + a
-    },
-    easeInCirc: function(e, f, a, h, g) {
-        return -h * (Math.sqrt(1 - (f /= g) * f) - 1) + a
-    },
-    easeOutCirc: function(e, f, a, h, g) {
-        return h * Math.sqrt(1 - (f = f / g - 1) * f) + a
-    },
-    easeInOutCirc: function(e, f, a, h, g) {
-        if ((f /= g / 2) < 1) {
-            return -h / 2 * (Math.sqrt(1 - f * f) - 1) + a
-        }
-        return h / 2 * (Math.sqrt(1 - (f -= 2) * f) + 1) + a
-    },
-});
-</script>
-
    </body>
 </html>
