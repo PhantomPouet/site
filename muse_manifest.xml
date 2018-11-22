@@ -1,0 +1,48 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://phantompouet.github.io/site" resolutions="1x" timestamp="1542894057514">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="3826013511" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3803043152" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4153641093" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="svg-collé-1717-x-3017.svg" crc="3928413984" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg collé 1717 x 3017_poster_.png" crc="3964731792" ref="index"/>
+    <file name="u125-9.png" crc="3976641785" ref="index"/>
+    <file name="u216-10.png" crc="3813441513" ref="index"/>
+    <file name="u331-6.png" crc="206598030" ref="index"/>
+    <file name="u334-8.png" crc="182557464" ref="index"/>
+    <file name="svg-collé-395322-x-80.svg" crc="3862027712" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg collé 395322 x 80_poster_.png" crc="3798712329" ref="index"/>
+    <file name="plan de travail 1.png" crc="288410717" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="h2o logo2.png" crc="3979158258" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="esport h2o.png" crc="14414914" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg-collé-208066-x-70.svg" crc="130970356" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg collé 208066 x 70_poster_.png" crc="4201501630" ref="index"/>
+    <file name="logo hd.png" crc="4102536876" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dsc_0642 copie.png" crc="175383619" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="534644906" seo="true" mt="1542893659012" redirect="true"/>
+</manifest>
