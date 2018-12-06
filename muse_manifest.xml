@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://phantompouet.github.io/site" resolutions="1x" timestamp="1542895639095">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://phantompouet.github.io/site" resolutions="1x" timestamp="1544094132465">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="532853273" ref="index"/>
+    <file name="index.css" crc="4158792169" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -10,20 +10,17 @@
     <file name="museconfig.js" crc="4153641093" ref="index"/>
     <file name="jquery.watch.js" crc="99325471" ref="index"/>
     <file name="require.js" crc="4157109226" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="svg-collé-1717-x-3017.svg" crc="3928413984" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="svg collé 1717 x 3017_poster_.png" crc="3964731792" ref="index"/>
-    <file name="u125-9.png" crc="3976641785" ref="index"/>
-    <file name="u216-10.png" crc="3813441513" ref="index"/>
-    <file name="u331-6.png" crc="206598030" ref="index"/>
-    <file name="u334-8.png" crc="182557464" ref="index"/>
+    <file name="u216-10.png" crc="463925134" ref="index"/>
+    <file name="u331-6.png" crc="270795921" ref="index"/>
+    <file name="u334-8.png" crc="471335421" ref="index"/>
     <file name="svg-collé-395322-x-80.svg" crc="3862027712" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="svg collé 395322 x 80_poster_.png" crc="3798712329" ref="index"/>
+    <file name="svg collé 395322 x 80_poster_.png" crc="298114507" ref="index"/>
     <file name="plan de travail 1.png" crc="288410717" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -40,9 +37,50 @@
     <file name="logo hd.png" crc="4102536876" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="dsc_0642 copie.png" crc="175383619" seo="true" ref="index">
+    <file name="dsc_0642 copie.png" crc="520639780" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="plan de travail 5.png" crc="4004348470" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u953-5.png" crc="293752763" ref="index"/>
+    <file name="u962-5.png" crc="3967207956" ref="index"/>
+    <file name="u965-5.png" crc="4234570787" ref="index"/>
+    <file name="1.jpg" crc="4267654890" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2.jpg" crc="388682638" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3.jpg" crc="309811950" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u950-6.png" crc="331612356" ref="index"/>
+    <file name="logo plocom.png" crc="465377624" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1006-8.png" crc="4283264081" ref="index"/>
+    <file name="phantom blanc.png" crc="3978627319" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u125-6.png" crc="85933870" ref="index"/>
+    <file name="u533-6.png" crc="4279243609" ref="index"/>
+    <file name="plan de travail 12.png" crc="533311377" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="plan de travail 2.png" crc="100316903" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="plan de travail 3.png" crc="515748553" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="plan de travail 4.png" crc="3843238844" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="plan de travail 6.png" crc="4015428719" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="favicon.ico" crc="3788493663" ref="index"/>
   </folder>
-  <file name="index.html" crc="147257306" seo="true" mt="1542895623490" redirect="true"/>
+  <file name="index.html" crc="3918744105" seo="true" mt="1544094096991" redirect="true"/>
 </manifest>
