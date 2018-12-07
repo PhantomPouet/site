@@ -2,9 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://phantompouet.github.io/site/index.html</loc>
-    <lastmod>2018-12-06</lastmod>
+    <lastmod>2018-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://phantompouet.github.io/site/phone/index.html"/>
     <image:image>
       <image:loc>https://phantompouet.github.io/site/images/svg-coll%C3%A9-395322-x-80.svg</image:loc>
     </image:image>
@@ -45,9 +46,6 @@
       <image:loc>https://phantompouet.github.io/site/images/phantom%20blanc.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://phantompouet.github.io/site/images/plan%20de%20travail%2012.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://phantompouet.github.io/site/images/plan%20de%20travail%202.png</image:loc>
     </image:image>
     <image:image>
@@ -58,6 +56,9 @@
     </image:image>
     <image:image>
       <image:loc>https://phantompouet.github.io/site/images/plan%20de%20travail%206.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://phantompouet.github.io/site/images/lignes.png</image:loc>
     </image:image>
   </url>
 </urlset>
