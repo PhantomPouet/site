@@ -1,0 +1,30 @@
+{
+  "name": "cent-cravates",
+  "version": "1.0.0",
+  "description": "Projet de a4 éditions pour le site cent-cravates par le imac21-0113/.npm-global",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.prod.js",
+    "dev": "concurrently -k \"php -S localhost:8080 -t ./public -ddisplay_errors=1\" \"node build/server.js\"",
+    "gh": "npm run build && gh-pages -d dist"
+  },
+  "author": "Ruben Lecomte",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "latest",
+    "gulp-sourcemaps": "latest"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "gulp": "^3.9.1",
+    "jquery": "^3.3.1",
+    "parallax-js": "^3.1.0"
+  }
+}
