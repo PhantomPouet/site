@@ -9496,8 +9496,17 @@ a:hover, a:active, a:focus {
   width: auto;
 }
 
-#img2 {
-  width: auto;
-  top: 60% !important;
+#img1 {
+  top: 25% !important;
   left: 40% !important;
+}
+
+#img2 {
+  top: 70% !important;
+  left: 10% !important;
+}
+
+#img3 {
+  top: -10% !important;
+  left: 10% !important;
 }
