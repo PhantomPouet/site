@@ -45,6 +45,11 @@ a {
   }
 }
 
+p {
+  @include font-size(26);
+  line-height: 2rem;
+}
+
 #fullpage {
   height: 100vh;
   overflow: hidden;
@@ -71,8 +76,12 @@ a {
       width: 200px;
     }
   }
+
 }
 #scene {
+  height: calc(100vh - 14rem);
+  top: 7rem;
+  right: 15%;
   img {
     width: auto;
   }
@@ -88,4 +97,12 @@ a {
 #img3 {
   top: -10% !important;
   left: 10% !important;
+}
+h1 {
+  @include font-size(72);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+h2 {
+  @include font-size(36);
 }

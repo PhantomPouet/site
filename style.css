@@ -9384,7 +9384,6 @@ figure {
 
 img {
   height: auto;
-  width: 100%;
 }
 
 @font-face {
@@ -9465,6 +9464,12 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
+p {
+  font-size: 26px;
+  font-size: 1.625rem;
+  line-height: 2rem;
+}
+
 #fullpage {
   height: 100vh;
   overflow: hidden;
@@ -9492,6 +9497,12 @@ a:hover, a:active, a:focus {
   width: 200px;
 }
 
+#scene {
+  height: calc(100vh - 14rem);
+  top: 7rem;
+  right: 15%;
+}
+
 #scene img {
   width: auto;
 }
@@ -9509,4 +9520,16 @@ a:hover, a:active, a:focus {
 #img3 {
   top: -10% !important;
   left: 10% !important;
+}
+
+h1 {
+  font-size: 72px;
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 36px;
+  font-size: 2.25rem;
 }
