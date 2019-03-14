@@ -5,73 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Phantom Bootstrap</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fullpage.min.css">
   </head>
   <body>
     <div id="fullpage">
-
-      <section class="section" id="content-1">
+      <section class="section" id="content-1" data-centered="true">
         <div class="parallax1">
-          <div>
-            <img src="images/plan de travail 4.png" alt="">
-          </div>
-          <div>
-            <img src="images/plan de travail 5.png" alt="">
-          </div>
-          <div>
-            <img src="images/plan de travail 6.png" alt="">
-          </div>
-          <div id="scene" class="">
-            <div id="img1" data-depth="0.4"><img src="images/plan de travail 1.png" alt=""></div>
-            <div id="img2" data-depth="1"><img src="images/plan de travail 2.png" alt=""></div>
-            <div id="img3" data-depth="2"><img src="images/plan de travail 3.png" alt=""></div>
+          <img src="images/plan de travail 4.png" alt="">
+          <img src="images/plan de travail 5.png" alt="">
+          <img src="images/plan de travail 6.png" alt="">
+          <div id="scene" class="imgs">
+            <div id="img1" class="img" data-depth="0.4"><img src="images/plan de travail 1.png" alt=""></div>
+            <div id="img2" class="img" data-depth="1"><img src="images/plan de travail 2.png" alt=""></div>
+            <div id="img3" class="img" data-depth="2"><img src="images/plan de travail 3.png" alt=""></div>
           </div>
         </div>
-        <div class="container-fluid h-100">
-          <div class="row h-100">
-            <div class="col-md-6">
-              <div class="row flex-column justify-content-between h-100">
-                <div class="col-auto logo">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="row flex-column justify-content-between">
+                <div class="col-auto logo-site">
                   <img src="images/svg-collé-395322-x-80.svg" alt="">
                 </div>
-
                 <div class="col-auto">
                   <h1>Bonjour</h1>
                   <p>Voici mon petit site,</p>
-                  <p>il présente un échantillon de mes travaux des dernières années.</p>
+                  <p>Il présente un échantillon de mes travaux des dernières années.</p>
                   <p>J’espère qu’il vous plaira :)</p>
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
       </section>
-      <section class="section" id="content-2">
-        <div class="container-fluid h-100">
-          <div class="d-flex flex-column justify-content-between h-100">
-            <div class="col-auto">
+      <section class="section" id="content-2" data-centered="true">
+        <div class="container-fluid">
+          <div class="d-flex flex-column justify-content-between h-100 align-content-start">
+            <div class="col-sm-auto content">
               <h2>À votre droite, deux exemples de logos</h2>
               <p>
                 Tout mes travaux naissent sur une feuille de papier, les croquis c'est la vie.
+              </p>
+              <p>
                 Une fois que le design me plaît, j'entame la création sur mon PC, avec une grande rigueur. Et en fonction de la demande, je peux adapter le logo pour d'autres usages.
               </p>
             </div>
-            <div class="col-auto">
-              <div class="row justify-content-around">
-                <div class="col-auto text-right">
+            <div class="col-auto logos">
+              <div class="row align-items-center justify-content-around">
+                <div class="logo-1 col-4 col-sm-2">
                   <img src="images\logo hd.png" alt="">
                 </div>
-                <div class="col-auto text-left">
+                <div class="logo-2 col-8 col-sm-4">
                   <img src="images\svg collé 208066 x 70_poster_.png" alt="">
                 </div>
               </div>
-              <div class="row justify-content-around">
-                <div class="col-auto text-right">
-                  <img src="images\logo hd.png" alt="">
+              <div class="row align-items-center justify-content-around">
+                <div class="logo-3 col-4 col-sm-2">
+                  <img src="images\h2o logo2.png" alt="">
                 </div>
-                <div class="col-auto text-left">
-                  <img src="images\svg collé 208066 x 70_poster_.png" alt="">
+                <div class="logo-4 col-8 col-sm-3">
+                  <img src="images\esport h2o.png" alt="">
                 </div>
               </div>
             </div>
@@ -80,9 +73,84 @@
       </section>
       <section class="section" id="content-3">
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <h2>à votre droite, deux exemples de logos</h2>
+          <div class="d-flex flex-column justify-content-between align-content-start">
+            <div class="col-auto content">
+              <div class="row justify-content-between">
+                <div class="illu col-sm-4 col-md-3">
+                  <img src="images\1.jpg" alt="">
+                </div>
+                <div class="illu col-sm-4 col-md-3">
+                  <img src="images\2.jpg" alt="">
+                </div>
+                <div class="illu col-sm-4 col-md-3">
+                  <img src="images\3.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-auto sub text-center">
+              <h2>Quelques illustrations</h2>
+              <p>Réalisées pour</p>
+              <img src="images/logo%20plocom.png?crc=465377624" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="content-4">
+        <div class="container-fluid h-100">
+          <div class="d-flex flex-column justify-content-start h-100 align-content-start">
+            <div class="col-auto">
+              <div class="row justify-content-end">
+                <div class="col-5">
+                  <h2>Vous prendrez bien un peu d'édition ?</h2>
+                  <p>Je connais aussi la mise en page, et j'ai déjà pu créer quelques documents, aussi bien personnellement que professionnellement.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="edition">
+          <img src="images/dsc_0642%20copie.png?crc=520639780" alt="">
+        </div>
+      </section>
+      <section class="section" id="content-5">
+        <div class="container-fluid">
+          <div class="d-flex flex-column justify-content-between align-content-start">
+            <div class="col-auto content">
+              <h2>Ah et c'est pas tout !</h2>
+              <p>J'aime à me perdre dans d'autres activités, car du moment que ça touche à la création visuelle, le sujet m'intéresse.</p>
+              <p>Et oui, un peu de vidéo ça ne fait pas de mal.</p>
+            </div>
+            <div class="col-auto">
+              <div class="row justify-content-around">
+                <div class="col-md-5">
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/r0ZfXQUBJ5k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-5">
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/DPK2uVT3t7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="content-6">
+        <div class="container-fluid">
+          <div class="d-flex flex-column justify-content-between align-content-start">
+            <div class="col-auto">
+              <h2>Je peux sûrement vous aider <i>(Je l'espère)</i></h2>
+              <p>Alors n'hésitez pas !</p>
+              <p>Vous pouvez envoyer un mail à moi directement ou à mon double numérique</p>
+            </div>
+            <div class="col-auto">
+              <div class="row justify-content-center justify-content-md-center align-items-center">
+                <div class="col-8 col-sm-5 col-md-3">
+                  <img src="images/svg-coll%c3%a9-395322-x-80.svg?crc=3862027712" alt="">
+                </div>
+                <div class="col-8 col-sm-5 col-md-3">
+                  <img src="images/phantom%20blanc.png?crc=3978627319" alt="">
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -91,7 +159,8 @@
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/parallax-js/dist/parallax.min.js"></script>
 
-    <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+    <script type="text/javascript" src="js/fullpage.min.js"></script>
+    <script type="text/javascript" src="js/fullpage.extensions.min.js"></script>
     <script type="text/javascript" src="js/scroll.js"></script>
   </body>
 </html>

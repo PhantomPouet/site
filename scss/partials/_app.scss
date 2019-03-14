@@ -10,15 +10,11 @@
     @include img-fluid;
   }
 }
-
 .group{
     @include group;
 }
 .img-fluid {
     @include img-fluid;
-}
-.clear {
-  clear: both;
 }
 
 // ------------------------------------------------
@@ -36,6 +32,7 @@ body {
     background: #121726;
     font: calculate-rem($body-font-size)/1em $body-font-family;
     color: white;
+
 }
 a {
   &:hover,
@@ -46,34 +43,88 @@ a {
 }
 
 p {
-  @include font-size(26);
-  line-height: 2rem;
+  mix-blend-mode: exclusion;
+  @include font-size(20);
+  line-height: 1.7rem;
+  @include media-breakpoint-up(md) {
+    @include font-size(26);
+    line-height: 2rem;
+  }
 }
 
 #fullpage {
-  height: 100vh;
-  overflow: hidden;
-  section {
-    height: 100vh;
+  @media (max-width: 1199.98px) {
+    overflow: hidden;
+  }
+  @include media-breakpoint-down(1024px){
+
+  }
+  .fp-tableCell {
+    @include media-breakpoint-up(sm){
+      padding: 2rem;
+    }
     @include media-breakpoint-up(md){
-      padding: 7rem;
+      padding: 6rem;
+    }
+    @include media-breakpoint-up(xl){
+      padding: 4rem 10rem;
     }
   }
 }
 
 .parallax1 {
+  > img,
   > div {
-    width: 35vw;
     position: fixed;
     top: 0;
     right: 0;
     display: inline-block;
+    @include media-breakpoint-up(md) {
+      width: 35vw;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 35vw;
+    }
+  }
+  > img {
+    height: 700px;
+    width: auto;
+    @include media-breakpoint-up(md) {
+      height: 1000px;
+    }
   }
 }
+
+#content-1,
+#content-2,
+#content-3,
+#content-4 {
+  @include media-breakpoint-down(lg) {
+    height: auto !important;
+    .fp-tableCell{
+     height: auto !important;
+    }
+  }
+}
+
+
 #content-1 {
-  .logo {
+  height: 100vh !important;
+  h1 {
+    mix-blend-mode: exclusion;
+    @include font-size(36);
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    @include media-breakpoint-up(md) {
+      @include font-size(72);
+    }
+  }
+  .logo-site {
+    margin: 1rem 0 8rem;
     img {
       width: 200px;
+      mix-blend-mode: exclusion;
     }
   }
 
@@ -82,11 +133,15 @@ p {
   height: calc(100vh - 14rem);
   top: 7rem;
   right: 15%;
-  img {
+}
+.img {
+  width: 50%;
+  @include media-breakpoint-up(md) {
     width: auto;
   }
 }
 #img1 {
+  width: 50%;
   top: 25% !important;
   left: 40% !important;
 }
@@ -98,11 +153,59 @@ p {
   top: -10% !important;
   left: 10% !important;
 }
-h1 {
-  @include font-size(72);
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
+
 h2 {
-  @include font-size(36);
+  mix-blend-mode: exclusion;
+  @include font-size(26);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  @include media-breakpoint-up(md) {
+    @include font-size(38);
+  }
+}
+
+#content-2 {
+  .logos {
+    margin-bottom: 4rem;
+  }
+  .content {
+    @include media-breakpoint-up(sm) {
+      width: 80%;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+  }
+}
+#content-3 {
+  .illu {
+    margin-bottom: 2rem;
+  }
+  .sub {
+    img {
+      width: 70%;
+      @include media-breakpoint-up(md) {
+        width: auto;
+      }
+    }
+  }
+}
+#content-4 {
+  img {
+    position: relative;
+    top: 0;
+    left: 50%;
+    width: 200%;
+    transform: translate(-50%, 0) rotate(13deg);
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      width: 90vw;
+      left: 35%;
+      z-index: -1;
+    }
+  }
+}
+#content-6 {
+  text-align: center;
 }
