@@ -9463,8 +9463,8 @@ a:hover, a:active, a:focus {
 
 p {
   mix-blend-mode: exclusion;
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.7rem;
 }
 
@@ -9529,7 +9529,13 @@ p {
 
 @media (min-width: 768px) {
   .parallax1 > img {
-    height: 1000px;
+    height: 120vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .parallax1 > img {
+    height: 140vh;
   }
 }
 
@@ -9594,19 +9600,61 @@ p {
 }
 
 #img1 {
-  width: 50%;
-  top: 25% !important;
-  left: 40% !important;
+  width: 200px;
+  top: 40% !important;
+  left: 60% !important;
+}
+
+@media (min-width: 768px) {
+  #img1 {
+    top: 60% !important;
+    left: 60% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #img1 {
+    top: 40% !important;
+    left: 85% !important;
+  }
 }
 
 #img2 {
-  top: 70% !important;
+  top: 100% !important;
   left: 10% !important;
+}
+
+@media (min-width: 768px) {
+  #img2 {
+    top: 100% !important;
+    left: -50% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #img2 {
+    top: 80% !important;
+    left: 40% !important;
+  }
 }
 
 #img3 {
   top: -10% !important;
-  left: 10% !important;
+  left: -20% !important;
+}
+
+@media (min-width: 992px) {
+  #img3 {
+    top: -10% !important;
+    left: 10% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #img3 {
+    top: 0% !important;
+    left: 40% !important;
+  }
 }
 
 h2 {
@@ -9625,7 +9673,62 @@ h2 {
 }
 
 #content-2 .logos {
-  margin-bottom: 4rem;
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
+
+#content-2 .logos > div {
+  margin: 2rem 0;
+}
+
+#content-2 .logo-a img {
+  width: 90px;
+}
+
+@media (min-width: 768px) {
+  #content-2 .logo-a img {
+    width: auto;
+  }
+}
+
+#content-2 .logo-b {
+  text-align: right;
+}
+
+#content-2 .logo-2 img {
+  width: 280px;
+}
+
+@media (min-width: 576px) {
+  #content-2 .logo-2 img {
+    width: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content-2 .logo-2 img {
+    width: auto;
+  }
+}
+
+#content-2 .logo-4 {
+  text-align: right;
+}
+
+#content-2 .logo-4 img {
+  width: 180px;
+}
+
+@media (min-width: 576px) {
+  #content-2 .logo-4 img {
+    width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content-2 .logo-4 img {
+    width: auto;
+  }
 }
 
 @media (min-width: 576px) {
@@ -9644,12 +9747,18 @@ h2 {
 }
 
 #content-3 .sub img {
-  width: 70%;
+  width: 150px;
 }
 
 @media (min-width: 768px) {
   #content-3 .sub img {
     width: auto;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #content-4 {
+    padding: 4rem 0;
   }
 }
 

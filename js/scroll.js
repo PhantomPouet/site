@@ -6,10 +6,3 @@ new fullpage('#fullpage', {
 });
 var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene);
-
-
-// if (window.matchMedia("(max-width: 600px)").matches) {
-//   fullpage_api.setAutoScrolling(false);
-// } else {
-//   fullpage_api.setAutoScrolling(true);
-// }
